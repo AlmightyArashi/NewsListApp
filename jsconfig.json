@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "client/utils/*": ["./src/client/utils/*"],
+            "server/utils/*": ["./src/server/utils/*"],
+            "components/*": ["./src/client/components/*"],
+            "styled-components": ["./src/client/styled-components"],
+            "higher-order-components/*": ["./src/client/higher-order-components/*"],
+        },
+    }
+}
